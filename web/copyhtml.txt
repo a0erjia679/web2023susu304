@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>веб</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <header class="header">
+    <div class = "mainHeader">
+       <div class="st">
+           <div class="maser">
+               <div class="LeftSide">
+                   <div class="container">
+                      <div class="logo">
+                         <img src="heraldic.svg" class="heraldic"><img/>
+                          <div class="logoText">
+                              <a><b>TИНЬКОФФ</b></a>
+                          </div>
+                      </div>
+                      
+                       <div class="burger">
+                           
+                       </div>
+                   </div>
+                   <div class="tabs">
+                       <a class="text">финтех курсы</a>
+                       <a class="text">Стажировки</a>
+                       <a class="text">Мероприятия и партнерства</a> 
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+    <img src="loginButton.svg" class="loginButton" />  
+   </header>
+   <div class ="mainContent"> 
+   <div class="courseName">
+        <h2 class="textForBlock">Frontend-разработчик</h2>
+        <div class="minitext">Трехмесячный бесплатный курс от Финтеха, который можно просходить из люой точки России</div>
+        <div ><button class="btn">Подробнее</button></div>
+        <div >
+            <img  src="desktopHeroBannerNew_3%201%202.png"><img/>
+        </div>
+   </div>
+   <div>
+    <a class="textForMainBlock">
+        <h2 class="textForBlock">Кому подойдет этот курс</h2></a>
+   </div>
+   <div class = "MainBlock">
+       <div>
+           <img  src="desktopTilesFourPlusOne%203%201.png"><img/>
+        
+           <a class="minitext">хуй</a>
+           
+       </div>
+       
+   </div>
+   <div>
+    <a class="textForMainBlock">
+        <h2 class="textForBlock">Что вас ждет на курсе</h2>
+    </a>
+   </div>
+    
+   </div>
+
+   
+    
+    
+</body>
+</html>
