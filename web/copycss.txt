@@ -1,0 +1,165 @@
+/*___________шапка______________*/
+.header{
+display: flex;
+flex-direction: row;
+align-items: center;
+box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+justify-content: space-around;
+}
+
+.mainHeader{
+display: flex;
+width: 1104px;
+align-items: flex-start;
+}
+
+
+.st{
+display: flex;
+width: 1104px;
+align-items: flex-start;
+}
+
+.maser{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex: 1 0 0;
+}
+
+.LeftSide{
+display: flex;
+align-items: center;
+gap: 48px;
+align-self: stretch;
+align-items: center;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+
+.burger{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+.logo{
+display: flex;
+align-items: center;
+gap: 6px;
+}
+.logoText{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 2px;
+}
+.heraldic{
+width: 38px;
+height: 34px;
+}
+
+.tabs{
+display: flex;
+height: 64px;
+align-items: center;
+gap: 24px;
+}
+
+.text{
+color: var(--day-text-text-01, rgba(0, 0, 0, 0.80));
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 153.846% */
+}
+
+.loginButton{
+align-content: flex-end;
+}
+
+/*___________основной контент________________*/
+
+
+.mainContent{
+background: var(--day-base-base-02, #F6F7F8);
+display: flex;
+flex-direction: column;
+
+}
+
+.courseName{
+display: flex;
+flex-direction: column;
+justify-content:center;   
+}
+
+.textForBlock{
+font-family: "Roboto Black";
+font-size: 44px;
+font-weight: 800;
+line-height: 48px; 
+text-align: center;
+    background: var(--day-base-base-02, #F6F7F8);
+        margin-top: 40px;
+margin-bottom: 24px;
+margin-bottom:40px
+    margin-bottom:64px;
+}
+.textForMainBlock{
+margin-bottom:24px;
+margin-top:76px; 
+}
+.minitext{
+text-align: center;
+font-family: "Roboto Light";
+font-size: 25px;
+}
+
+
+
+h2{
+margin: 0; 
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: var(--day-base-base-02, #F6F7F8);
+
+}
+
+
+.btn{
+padding: 16px 36px;
+border-radius: 8px;
+background: #FFDD2D;
+align-self: center;
+/*align-content: center*/
+margin-bottom:64px;
+margin-top:40px; 
+    border: none;
+
+}
+
+
+
+
+
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto Black";
+    src: url("Roboto-Black.ttf");
+}
+
