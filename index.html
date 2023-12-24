@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<header>
+    <div class="header">
+        <div class="headerName">Posts</div>
+        <button class="ButtonCreate" onclick="openWindow()">
+            Create
+        </button>
+
+
+    </div>
+</header>
+<body>
+
+    <div class="pop_up" id="my">
+        <div class="pop_up_container">
+            <div class="pop_up_body">
+                <p>Добавьте пост</p>
+                <label for="userId">Пользователь</label>
+                <select id="userId">
+                </select>
+                <label for="title">Заголовок поста</label>
+                <input type="text" id="title">
+                <label for="body">Тело поста</label>
+                <input type="textarea" cols="20" rows="30" id="body">
+                <button class="button1" onclick="add()">add</button>
+                <button class="button1" id="close">close</button>
+                <button class="button1" onclick="edit()">edit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="main">
+        <div><h1 class="myWork">Посты</h1></div>
+
+        <div id="input">
+        </div>
+        <hr>
+        <div id="out">
+
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="footer_text">
+            Гриненко О.Е., КЭ-304
+        </div>
+    </div>
+</footer>
+
+<script src='1.js'></script>
+</html>
